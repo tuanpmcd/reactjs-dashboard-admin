@@ -63,6 +63,10 @@
   justify-content: space-between;
 }
 
+.productInfoKey {
+  text-transform: capitalize;
+}
+
 .productInfoValue {
   font-weight: 300;
 }
@@ -119,11 +123,15 @@
   align-items: center;
 }
 
+.productUploadIcon {
+  color: teal;
+}
+
 .productButton{
   border: none;
   padding: 5px;
   border-radius: 5px;
-  background-color: darkblue;
+  background-color: teal;
   color:white;
   font-weight: 600;
   cursor: pointer;
